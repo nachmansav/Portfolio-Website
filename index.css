@@ -1,0 +1,49 @@
+#hero {
+background-image: url('MainBackground.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+height: 100vh;
+}
+
+#hero h6 {
+line-height: 1.7;
+}
+
+.typewriter{
+	animation: type 3s steps(24) infinite;
+	overflow: hidden;
+	white-space: nowrap;
+}
+@keyframes type{
+	0% {
+		width: 0ch;
+	}
+	100% {
+		width:24ch;
+	}
+
+}
+h1{
+	font-size: 59px;
+}
+#portfoliocard{
+	background-repeat: no-repeat;
+	background-size: 100%,100%;
+}
+.icon{
+	font-size: 70px;
+	padding-right: 5px;
+	padding-left: 5px;
+	height: 70px;
+}
+.iconmine{
+	margin-bottom: 40px;
+}
+.margin{
+	margin-top: 45px;
+}
+.emailmargin{
+	margin-top: 15px;
+}
+
